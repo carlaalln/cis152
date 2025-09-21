@@ -1,0 +1,67 @@
+/* Body */
+body {
+  background-color: #90C7E3;
+  background-image: linear-gradient(white, #90C7E3);
+  background-repeat: no-repeat; /* bgdp */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Wrapper */
+#wrapper {
+  background-color: white;
+  box-shadow: 3px 3px 3px #333;
+  margin: auto;
+  min-width: 960px;
+  max-width: 2048px;
+  width: 80%;
+}
+
+/* Header */
+header {
+  height: 60px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  background-color: #FFF;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Main */
+main {
+  padding: 1px 20px 20px;
+}
+
+/* H2 */
+h2 {
+  text-shadow: 1px 1px #CCC;
+}
+
+/* Footer */
+footer {
+  padding: 2em;
+  text-align: center;
+}
+
+/* Hero Images */
+#homehero, #yurthero, #trailhero {
+  background-size: cover;
+  height: 18.75rem;
+}
+
+#homehero {
+  background-image: url("coast2.jpeg");
+}
+
+#yurthero {
+  background-image: url("yurt.jpeg");
+}
+
+#trailhero {
+  background-image: url("trail.jpeg");
+}
